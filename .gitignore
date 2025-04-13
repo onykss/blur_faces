@@ -1,0 +1,72 @@
+# === Python ===
+# Байт-код и скомпилированные файлы
+__pycache__/
+*.py[cod]
+
+# Виртуальные окружения
+venv/
+ENV/
+env/
+.venv/
+
+# Файлы зависимостей
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Логи и базы данных
+*.log
+*.sqlite3
+*.db
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# === Проект ===
+# Исходные видеофайлы
+input/*.mp4
+input/*.mov
+input/*.avi
+input/*.mkv
+input/*.flv
+input/*.wmv
+
+# Обработанные видеофайлы
+output/*.mp4
+output/*.mov
+output/*.avi
+output/*.mkv
+output/*.flv
+output/*.wmv
+
+# Лог-файлы
+*.log
+
+# Датасеты и промежуточные данные
+face_rec_stuff/*.csv
+face_rec_stuff/*.txt
+face_rec_stuff/*.json
+face_rec_stuff/*.npy
+face_rec_stuff/*.npz
+
+# Тестовые файлы
+test_data/
+tests/output/
+
+# === Другое ===
+# Архивы
+*.zip
+*.tar.gz
+
+# Временные файлы
+*.tmp
+*~
